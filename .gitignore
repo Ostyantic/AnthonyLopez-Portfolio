@@ -1,0 +1,45 @@
+# virtual environment
+.venv/
+.venv
+
+# idea folder
+.idea/
+
+# config files
+.env
+
+# project settings
+settings/local.py
+
+
+# compiled python files
+*.pyo
+*.pyc
+__pycache__/
+
+# IDE
+.vscode/
+
+# IDE backups
+*~
+*.swp
+.DS_Store
+
+# database
+db.sqlite3
+
+# log files
+*.log
+
+media/
+static/
+
+# secret key
+secret_key.txt
+
+# testing and type checking
+.mypy_cache/
+.pytest_cache/
+
+# dependencies
+pip-selfcheck.json
