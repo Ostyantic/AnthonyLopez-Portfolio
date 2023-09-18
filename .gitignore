@@ -5,8 +5,8 @@
 # idea folder
 .idea/
 
-media/
 static/
+media/
 
 # config files
 .env
