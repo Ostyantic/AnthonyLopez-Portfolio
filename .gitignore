@@ -5,12 +5,14 @@
 # idea folder
 .idea/
 
+static/
+media/
+
 # config files
 .env
 
 # project settings
 settings/local.py
-
 
 # compiled python files
 *.pyo
@@ -30,9 +32,6 @@ db.sqlite3
 
 # log files
 *.log
-
-media/
-static/
 
 # secret key
 secret_key.txt

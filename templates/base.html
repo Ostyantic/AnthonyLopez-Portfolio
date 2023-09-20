@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anthony Lopez</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'about' %}">About Me</a> {# TODO: Create an About Me Page #}
+        <a href="{% url 'projects' %}">Projects</a> {# TODO: Create a Projects Page #}
+        <a href="{% url 'contact' %}">Contact Me</a> {# TODO: Create a Contact Me Page #}
+    </nav>
+</header>
+
+<main>
+ {% block content %}
+ {% endblock %}
+</main>
+
+<footer>Anthony Lopez 2023 | Social Logos HERE{# TODO: Added image logos here, they should route to the appropriate socials #} </footer>
+</body>
+</html>
