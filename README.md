@@ -4,3 +4,7 @@
 
 - Django
 - Tailwind CSS
+
+## Libraries
+
+- Flowbite CSS
