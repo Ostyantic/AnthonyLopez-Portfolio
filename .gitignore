@@ -43,4 +43,5 @@ secret_key.txt
 # dependencies
 pip-selfcheck.json
 
+# js
 node_modules
