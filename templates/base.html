@@ -11,15 +11,16 @@
     <title>AnthonyLopez.dev</title>
 
     <link rel="shortcut icon" type="image/png" sizes="32x32" href="{% static 'images/favicon.png' %}"/>
-    <link rel="stylesheet" href="{% static 'src/stickynav.css' %}"/>
+{#    <link rel="stylesheet" href="{% static 'src/stickynav.css' %}"/>#}
     {% compress css %}
+        <link rel="stylesheet" href="{% static 'src/stickynav.css' %}"/>
         <link rel="stylesheet" href="{% static 'src/output.css' %}"/>
     {% endcompress %}
-{#    <link rel="stylesheet" href="{% static 'src/stickynav.css' %}"/>#}
+
 
 </head>
 <body class="bg-gradient-to-r from-blue-500 to-green-500 hover:from-purple-500 hover:to-pink-500 transition duration-300 ease-in-out">
-<header id="header">
+<header id="header" class="bg-BlueSteel" >
     <h1 class="name text-9xl">Anthony Lopez</h1>
 
     <p class="title text-6xl mt-2">Software Engineer</p>
