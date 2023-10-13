@@ -1,8 +1,31 @@
 {% extends 'base.html' %}
 
 {% block content %}
+    <section class="test-white">
+    <h1 id='about' class="title font-bold text-center text-4xl pt-24">About Me</h1>
+    <div class="mx-24">
+{#        <h1 id='about' class="title text-center text-4xl py-6">About Me</h1>#}
+{#        <img class="my-auto w-96 rounded-3xl border-white" src="static/images/AnthonyLopez.jpg" alt="AnthonyLopez">#}
+        <div class="flex justify-around space-x-2 m-8 w-full">
+                <img class="{# flex-auto #} w-96 my-auto rounded-3xl border-2 border-black shadow-2xl shadow-gray-600" src="static/images/AnthonyLopez.jpg"
+                 alt="AnthonyLopez">
+            <p class="p-8 w-6/12 leading-6">Full-Stack Software Engineer with a strong foundation in Order Entry and Customer Care within the HVAC
+                industry. My journey began with a commitment to delivering exceptional service, and now, armed with a
+                fresh perspective and a cutting-edge skill set, I'm ready to seamlessly integrate my customer care and
+                order management expertise into any team dynamic.
+                <br>
+                <br>
+                As a recent graduate from Code Fellows with a certificate in Advanced Software Development in Python, I
+                bring not only a passion for excellence but also a hunger for continuous growth and learning. My unique
+                blend of technical proficiency and customer-centricity enables me to bridge the gap between code and
+                customer satisfaction, ensuring a holistic approach to problem-solving and project execution.</p>
+        </div>
+    </div>
+    </section>
+
+
     <div class="bg-black">
-        <h1 class="title text-center text-4xl py-6">About Me</h1>
+        <h1 id='projects' class="title font-bold text-center text-4xl pt-24">Projects</h1>
         <div class="flex space-x-9 m-8 p-8">
             <img class="h-auto max-w-lg rounded-lg border-2 border-Lumigreen" src="static/images/AnthonyLopez.jpg"
                  alt="AnthonyLopez">
@@ -20,25 +43,7 @@
     </div>
 
     <div class="bg-black">
-        <h1 class="title text-center text-4xl py-6">Projects</h1>
-        <div class="flex space-x-9 m-8 p-8">
-            <img class="h-auto max-w-lg rounded-lg border-2 border-Lumigreen" src="static/images/AnthonyLopez.jpg"
-                 alt="AnthonyLopez">
-            <p>Full-Stack Software Engineer with a strong foundation in Order Entry and Customer Care within the HVAC
-                industry. My journey began with a commitment to delivering exceptional service, and now, armed with a
-                fresh perspective and a cutting-edge skill set, I'm ready to seamlessly integrate my customer care and
-                order management expertise into any team dynamic.
-                <br>
-                <br>
-                As a recent graduate from Code Fellows with a certificate in Advanced Software Development in Python, I
-                bring not only a passion for excellence but also a hunger for continuous growth and learning. My unique
-                blend of technical proficiency and customer-centricity enables me to bridge the gap between code and
-                customer satisfaction, ensuring a holistic approach to problem-solving and project execution.</p>
-        </div>
-    </div>
-
-    <div class="bg-black">
-        <h1 class="title text-center text-4xl py-6">Experience</h1>
+        <h1 class="title font-bold text-center text-4xl py-6">Experience</h1>
         <div class="flex space-x-9 m-8 p-8">
             <img class="h-auto max-w-lg rounded-lg border-2 border-Lumigreen" src="static/images/AnthonyLopez.jpg"
                  alt="AnthonyLopez">
