@@ -13,6 +13,7 @@ module.exports = {
             'Aqualight': '#00E1FF',
             'Cerulean': '#00A8FF',
             'BlueSteel': '#55647E',
+            'Custom1': '#121922',
         },
     },
   },
