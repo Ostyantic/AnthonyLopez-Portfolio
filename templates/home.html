@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block content %}
-    <section class="test-white">
+
+{#    About Section    #}
+    <section class="text-white">
     <h1 id='about' class="title font-bold text-center text-4xl pt-24">About Me</h1>
     <div class="mx-24">
 {#        <h1 id='about' class="title text-center text-4xl py-6">About Me</h1>#}
@@ -23,25 +26,47 @@
     </div>
     </section>
 
-
-    <div class="bg-black">
+{#    Projects Section    #}
+    <section class="text-white">
         <h1 id='projects' class="title font-bold text-center text-4xl pt-24">Projects</h1>
-        <div class="flex space-x-9 m-8 p-8">
-            <img class="h-auto max-w-lg rounded-lg border-2 border-Lumigreen" src="static/images/AnthonyLopez.jpg"
-                 alt="AnthonyLopez">
-            <p>Full-Stack Software Engineer with a strong foundation in Order Entry and Customer Care within the HVAC
-                industry. My journey began with a commitment to delivering exceptional service, and now, armed with a
-                fresh perspective and a cutting-edge skill set, I'm ready to seamlessly integrate my customer care and
-                order management expertise into any team dynamic.
-                <br>
-                <br>
-                As a recent graduate from Code Fellows with a certificate in Advanced Software Development in Python, I
-                bring not only a passion for excellence but also a hunger for continuous growth and learning. My unique
-                blend of technical proficiency and customer-centricity enables me to bridge the gap between code and
-                customer satisfaction, ensuring a holistic approach to problem-solving and project execution.</p>
-        </div>
-    </div>
 
+        <div class="m-20 h-96 flex justify-between">
+            <figure class="w-96 p-4 flex flex-col flex-initial justify-between">
+                <h2 class="text-center">Find A Pet!</h2>
+                <img class="w-9/12 rounded-lg mx-auto" src="{% static 'images/FindAPet1.png' %}"
+                     alt="Find A Pet">
+                <figcaption class="text-sm text-center text-gray-500 dark:text-gray-400">Full stack web application that allows users to rescue pets using Purina's Petfinder API</figcaption>
+                <a href="#" class="text-center">
+                    <button class="w-4/12 hover:bg-BlueSteel transition ease-in-out duration-500">Learn More</button>
+                </a>
+            </figure>
+
+            <figure class="w-96 p-4 flex flex-col flex-initial justify-between">
+                <h2 class="text-center">Text Adventure</h2>
+                <img class="w-9/12 rounded-lg mx-auto" src="{% static 'images/TextAdventure1.png' %}"
+                     alt="Text Adventure">
+                <figcaption class="text-sm text-center text-gray-500 dark:text-gray-400">Text based CLI game.</figcaption>
+                <a href="#" class="text-center">
+                    <button class="w-4/12 hover:bg-BlueSteel transition ease-in-out duration-500">Learn More</button>
+                </a>
+            </figure>
+
+            <figure class="w-96 p-4 flex flex-col flex-initial justify-between">
+                <h2 class="text-center">Vipers Venom Tavern</h2>
+                <img class="max-h-36 w-9/12 rounded-lg mx-auto" src="{% static 'images/VVT1.png' %}"
+                     alt="Vipers Venom Tavern">
+                <figcaption class="text-sm text-center text-gray-500 dark:text-gray-400">Full stack web application that allows users to buy and sell trading cards.</figcaption>
+                <a href="#" class="text-center">
+                    <button class="w-4/12 hover:bg-BlueSteel transition ease-in-out duration-500">Learn More</button>
+                </a>
+            </figure>
+
+        </div>
+
+    </section>
+
+
+{#    Experience Section   #}
     <div class="bg-black">
         <h1 class="title font-bold text-center text-4xl py-6">Experience</h1>
         <div class="flex space-x-9 m-8 p-8">
