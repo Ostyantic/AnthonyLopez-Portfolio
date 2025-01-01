@@ -1,6 +1,20 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block page_header %}
+    <header id="header" class="bg-BlueSteel">
+        <h1 class="name text-9xl" id="fade-in-text">Anthony Lopez</h1>
+
+            <p class="title text-6xl mt-2" id="fade-in-textp">Software Engineer</p>
+            <nav class="tabs-container">
+                <a href="#about" class="">About</a>
+                <a href="#projects" class="">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="{% url 'contact' %}" class="tab">Contact</a>
+            </nav>
+    </header>
+{% endblock %}
+
 {% block content %}
 
     {#    About Section    #}

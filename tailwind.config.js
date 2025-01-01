@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
         colors: {
-           'Lumigreen': '#00FD38',
+            'Lumigreen': '#00FD38',
             'Mossy': '#3F4A3C',
             'Sage': '#A2AF9F',
             'Aqualight': '#00E1FF',
